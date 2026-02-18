@@ -63,16 +63,12 @@ node_modules/bootstrap-icons/font/
 ```
 
 Di dalamnya terdapat:
-
-bootstrap-icons.css
-
-folder fonts
+- bootstrap-icons.css
+- folder fonts
 
 Copy:
-
-File bootstrap-icons.css
-
-Folder fonts
+- File bootstrap-icons.css
+- Folder fonts
 
 Pindahkan ke dalam project sehingga menjadi:
 ```pert2/
@@ -89,9 +85,9 @@ Pindahkan ke dalam project sehingga menjadi:
 4️⃣ Perbaiki Path Font (PENTING)
 
 Buka file:
-
+```
 assets/css/bootstrap-icons.css
-
+```
 Cari bagian ini:
 ```
 url("./fonts/bootstrap-icons.woff2")
@@ -101,10 +97,10 @@ Ubah menjadi:
 url("../fonts/bootstrap-icons.woff2")
 ```
 Karena:
--CSS ada di assets/css/
--Fonts ada di assets/fonts/
+- CSS ada di assets/css/
+- Fonts ada di assets/fonts/
 Maka harus naik satu folder (../)
--CSS ada di assets/css/
--Fonts ada di assets/fonts/
+- CSS ada di assets/css/
+- Fonts ada di assets/fonts/
 
 Maka harus naik satu folder (../)
