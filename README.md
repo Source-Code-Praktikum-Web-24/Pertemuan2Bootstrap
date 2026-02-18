@@ -42,7 +42,7 @@ node -v
 npm -v
 ```
 
-2️⃣ Install Bootstrap Icons
+## 2️⃣ Install Bootstrap Icons
 
 Masuk ke folder project lalu jalankan:
 
@@ -52,7 +52,7 @@ Setelah berhasil, akan muncul folder:
 ```
 node_modules/bootstrap-icons/
 ```
-3️⃣ Copy File ke Project (WAJIB untuk HTML Biasa)
+## 3️⃣ Copy File ke Project (WAJIB untuk HTML Biasa)
 
 Karena project ini hanya menggunakan HTML (tanpa bundler seperti Vite/Webpack),
 file dari node_modules tidak bisa langsung digunakan.
@@ -82,7 +82,7 @@ Pindahkan ke dalam project sehingga menjadi:
         ├── bootstrap-icons.woff
         └── bootstrap-icons.woff2
 ```
-4️⃣ Perbaiki Path Font (PENTING)
+## 4️⃣ Perbaiki Path Font (PENTING)
 
 Buka file:
 ```
